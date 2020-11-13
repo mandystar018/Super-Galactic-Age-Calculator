@@ -1,4 +1,4 @@
-import Triangle from './../src/js/triangle.js';
+import User from '../src/js/user.js';
 
   describe('TODO', () => {
   test('should correctly create a triangle object with three lengths', () => {

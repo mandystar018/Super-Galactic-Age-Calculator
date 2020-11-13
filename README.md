@@ -10,31 +10,9 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 
 ## Specs/test
 
-<details>
-  <summary>Expand Specs</summary>
-  <table>
-    <tr>
-      <th>Description</th>
-      <th>Test</th>
-      <th>Input</th>
-      <th>Output</th>
-      <th>Completed</th>
-    </tr>
-    <tr>
-      <td>calculator(years, lifestlye)</td>
-      <td>It should correctly....</td>
-      <td>new Player("Mandy")</td>
-      <td>player.name === "Mandy"</td>
-      <td>False</td>
-    </tr>
-  </table>
-</details>
-
-| Description calculator(years, lifestyle, activity, eatingHabits)        	| Input                           	| Output 	|
-|--------------------------------------------------------------------------	|---------------------------------	|--------	|
-| test:"It should determine users years, lifestyle, activity, eatingHabits"	| cost("31", "relax", "normal", "healthy")      	| TODO    	|
-
-<h2>LOVE</h2>
+| Description user("years", "exercise", "eatingHabits")                            	| Input                               	| Output                         	|
+|----------------------------------------------------------------------------------	|-------------------------------------	|--------------------------------	|
+| test: It should correctly hold users data base on years, exercise, eatingHabits. 	| new User("19", "active", "healthy") 	| user "19", "active", "healthy" 	|
 
 
 ## Setup/Installation Requirements
