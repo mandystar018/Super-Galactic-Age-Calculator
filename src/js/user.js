@@ -3,10 +3,11 @@ export class User {
     this.years = years;
     this.exercise = exercise;
     this.eatingHabits = eatingHabits;
-    this.mercury = 0;
-    this.venus = 0;
-    this.mars = 0;
-    this.jupiter = 0;
+    this.mercury = (Math.round(this.years / .24));
+    this.venus = (Math.round(this.years / .62));
+    this.mars = (Math.round(this.years / 1.88));
+    this.jupiter = (Math.round(this.years / 11.86));
+    this.lifeExpectancy =[];
   }
 
   yearsMercury(){
@@ -29,7 +30,11 @@ export class User {
     return this.jupiter += jupiterYears;
   }
     
-      // if (this.exercise && this.eatingHabits === "non-active" && "unhealthy") {
-      //   return 
-      // 
+  lifeExpectancy(){
+    if (this.exercise && this.eatingHabits === "non-active" && "unhealthy") {
+      return 
+    }
+
   }
+
+}
