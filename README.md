@@ -18,7 +18,9 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 | Description yearsMercury() 	|  	|  	|
 | test: It should take the users year and divided by .24, round it and add it to mercury total' 	|  User("19"); 	| new User(Mercury:79) 	|
 | Description yearsVenus() 	|  	|  	|
-| test: It should take the users year and divided by .62, round it and add it to mercury total' 	| User("19"); 	| User(Venus:31)Mars:10 	|
+| test: It should take the users year and divided by .62, round it and add it to venus total' 	| User("19"); 	| User(Venus:31) 	|
+| Description yearsMars() 	|  	|  	|
+| test: It should take the users year and divided by 1.88, round it and add it to mars total' 	| User("19"); 	| User(Mars:10) 	|
 |  	|  	| Jupiter:2 	|
 
 

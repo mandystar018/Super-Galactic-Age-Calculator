@@ -18,8 +18,12 @@ export class User {
     let venusYears = (Math.round(this.years / .62));
     return this.venus += venusYears;
   }
-    // let marsYears = (Math.round(this.years / 1.88));
-    // this.mars += marsYears;
+
+  yearsMars(){
+    let marsYears = (Math.round(this.years / 1.88));
+    return this.mars += marsYears;
+  }
+    // 
     // let jupiterYears = (Math.round(this.years / 11.86));
     // this.jupiter += jupiterYears;
     // 
