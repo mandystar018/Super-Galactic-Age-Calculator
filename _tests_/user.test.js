@@ -32,7 +32,9 @@ import { User } from '../src/js/user.js';
       expect(user.yearsMars()).toEqual(10);
     });
 
-    test()
+    test('It should take the users year and divided by 11.86, round it and add it to jupiter total', () => {
+      expect(user.yearsJupite()).toEqual(2);
+    });
 });
 
 
