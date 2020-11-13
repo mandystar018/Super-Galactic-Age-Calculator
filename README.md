@@ -14,7 +14,7 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 |----------------------------------------------------------------------------------	|-------------------------------------	|--------------------------------------	|
 | test: It should correctly hold users data base on years, exercise, eatingHabits. 	| new User("19", "active", "healthy") 	| user "19", "active", "healthy"       	|
 | Description user()                                                               	|                                     	|                                      	|
-| test: It should add to the user total of 0 for each planet.                      	| new User()                          	| new User(Venus:0, Mars:0, Jupiter:0) 	|
+| test: It should add to the user total of 0 for each planet.                      	| new User()                          	| new User(Mercury:0, Venus:0, Mars:0, Jupiter:0) 	|
 
 
 ## Setup/Installation Requirements

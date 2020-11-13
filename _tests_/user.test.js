@@ -14,8 +14,12 @@ import { User } from '../src/js/user.js';
   });
 
     test('It should add to the user total of 0 for each planet.', () => {
+      expect(user.mercury).toEqual(0);
       expect(user.venus).toEqual(0);
       expect(user.mars).toEqual(0);
       expect(user.jupiter).toEqual(0);
-    })
+    });
 });
+
+//yearsVenus()
+// this.years / 
