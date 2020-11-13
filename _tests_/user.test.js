@@ -3,14 +3,14 @@ import { User } from '../src/js/user.js';
   describe('User', () => {
     let user;
     beforeEach(() => {
-      user = new User("19", "active", "healthy");
+      user = new User("19", "non-active", "unhealthy");
     });
 
 
     test('It should correctly hold users data base on years, exercise, eatingHabits', () => {
       expect(user.years).toEqual("19");
-      expect(user.exercise).toEqual("active");
-      expect(user.eatingHabits).toEqual("healthy");
+      expect(user.exercise).toEqual("non-active");
+      expect(user.eatingHabits).toEqual("unhealthy");
   });
 
     test('It should add to the user total of 0 for each planet.', () => {
@@ -24,13 +24,13 @@ import { User } from '../src/js/user.js';
     //   expect(user.mercuryCal()).toEqual(79);
     // });
 
-    afterEach(() => {
-      user = new User("20", "non-active", "unhealthy");
-    });
+    // test('It should take the users year and divided by .24 and based on user exercide and eatingHabits is going to subtract from the mercury total', () => {
+    //     expect(user.mercuryCal()).toEqual(39);
+    //   });
 
-    test('It should take the users year and divided by .24 and based on user exercide and eatingHabits is going to subtract from the mercury total', () => {
-        expect(user.mercuryCal()).toEqual(43);
-      });
+    test('It should takes the users year and transform from Earth years to planet years', () => {
+      expect(user.planetCalculator()).toEqual(79,31,10,2);
+    });
 });
 
 

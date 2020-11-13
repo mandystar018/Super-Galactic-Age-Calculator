@@ -10,13 +10,14 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 
 ## Specs/test
 
-|| Description user("years", "exercise", "eatingHabits") 	| Input 	| Output 	|
+| Description user("years", "exercise", "eatingHabits") 	| Input 	| Output 	|
 |-	|-	|-	|
 | test: It should correctly hold users data base on years, exercise, eatingHabits. 	| new User("19", "active", "healthy") 	| user "19", "active", "healthy" 	|
 | Description user() 	|  	|  	|
-| test: It should add to the user total of 0 for each planet. 	| new User() 	| new User(Venus:0, Mars:0, Jupiter:0) 	|
-| Description mercuryCal() 	|  	|  	|
-| test: It should take the users years and divided by .24, round it and add it to mercury total 	| mercury("19"); 	| mercury("79"); and User(Mars:79); 	|
+| test: It should add to the user total of 0 for each planet. 	| new User() 	| new User(Mercury:0, Venus:0, Mars:0, Jupiter:0) 	|
+| Description planetCalculator() 	|  	|  	|
+| test: It should takes the users year and transform from Earth years to planet years 	|  User("19"); 	| new User(Mercury:79, Venus:31, Mars:10, Jupiter:2) 	|
+|  	|  	|  	|
 
 
 ## Setup/Installation Requirements
