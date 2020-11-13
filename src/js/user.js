@@ -10,10 +10,10 @@ export class User {
   }
 
   mercuryCal(){
-    let mercuryYears = (Math.round(this.years / .24));
-    this.mercury += mercuryYears;
+    let mercuryYears = (Math.round(this.years / .24)); // 79
+    // this.mercury += mercuryYears;
     if (this.exercise && this.eatingHabits === "non-active" && "unhealthy") {
-      return this.mercury += mercuryYears -= 40
+      return mercuryYears -40, this.mercury;
     }
   } 
 }
