@@ -19,9 +19,10 @@ import { User } from '../src/js/user.js';
       expect(user.mars).toEqual(0);
       expect(user.jupiter).toEqual(0);
     });
+
+    test('It should take the users year and divided by .24, round it and add it to mercury total', () => {
+      expect(user.mercuryCal()).toEqual(79);
+    });
 });
 
-//mercuryCal()
-// let mercuryYears = (Math.round(this.years / .24));
-// mercuryYears += this.mercury;
-//
+

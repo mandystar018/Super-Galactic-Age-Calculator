@@ -8,4 +8,14 @@ export class User {
     this.mars = 0;
     this.jupiter = 0;
   }
+
+//mercuryCal()
+// let mercuryYears = (Math.round(this.years / .24));
+// mercuryYears += this.mercury;
+//
+
+  mercuryCal(){
+    let mercuryYears = (Math.round(this.years / .24));
+    mercuryYears += this.mercury;
+  }
 }
