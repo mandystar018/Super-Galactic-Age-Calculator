@@ -12,5 +12,5 @@ export class User {
   mercuryCal(){
     let mercuryYears = (Math.round(this.years / .24));
     return this.mercury += mercuryYears;
-  }
+  } 
 }
