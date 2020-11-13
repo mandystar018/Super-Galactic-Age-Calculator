@@ -16,6 +16,6 @@ import { User } from '../src/js/user.js';
     test('It should add to the user total of 0 for each planet.', () => {
       expect(user.venus).toEqual(0);
       expect(user.mars).toEqual(0);
-      expect(user.jupite).toEqual(0);
+      expect(user.jupiter).toEqual(0);
     })
 });
