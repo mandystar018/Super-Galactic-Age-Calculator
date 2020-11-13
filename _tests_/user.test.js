@@ -14,15 +14,23 @@ import { User } from '../src/js/user.js';
   });
 
     test('It should add to the user total of 0 for each planet.', () => {
-      expect(user.mercury).toEqual(0);
-      expect(user.venus).toEqual(0);
-      expect(user.mars).toEqual(0);
-      expect(user.jupiter).toEqual(0);
+        expect(user.mercury).toEqual(0);
+        expect(user.venus).toEqual(0);
+        expect(user.mars).toEqual(0);
+        expect(user.jupiter).toEqual(0);
+      });
+
+    // test('It should take the users year and divided by .24, round it and add it to mercury total', () => {
+    //   expect(user.mercuryCal()).toEqual(79);
+    // });
+
+    afterEach(() => {
+      user = new User("20", "non-active", "unhealthy");
     });
 
-    test('It should take the users year and divided by .24, round it and add it to mercury total', () => {
-      expect(user.mercuryCal()).toEqual(79);
-    });
+    test('It should take the users year and divided by .24 and based on user exercide and eatingHabits is going to subtract from the mercury total', () => {
+        expect(user.mercuryCal()).toEqual(43);
+      });
 });
 
 
