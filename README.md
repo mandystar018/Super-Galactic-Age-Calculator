@@ -14,15 +14,7 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 |-	|-	|-	|
 | test: It should correctly hold users data base on years, exercise, eatingHabits. 	| new User("19", "active", "healthy") 	| user "19", "active", "healthy" 	|
 | Description user() 	|  	|  	|
-| test: It should add to the user total of 0 for each planet. 	| new User() 	| new User(Mercury:0, Venus:0, Mars:0, Jupiter:0) 	|
-| Description yearsMercury() 	|  	|  	|
-| test: It should take the users year and divided by .24, round it and add it to mercury total' 	|  User("19"); 	| new User(Mercury:79) 	|
-| Description yearsVenus() 	|  	|  	|
-| test: It should take the users year and divided by .62, round it and add it to venus total' 	| User("19"); 	| User(Venus:31) 	|
-| Description yearsMars() 	|  	|  	|
-| test: It should take the users year and divided by 1.88, round it and add it to mars total' 	| User("19"); 	| User(Mars:10) 	|
-| Description yearsJupiter() 	|  	|  	|
-| test: It should take the users year and divided by 11.86, round it and add it to jupiter total' 	| User("19"); 	| User(Jupiter:2) 	|
+| test: It should add to the user age divided for each planet. 	| new User("19") 	| new User(Mercury:79, Venus:31, Mars:10, Jupiter:2) 	|
 
 
 ## Setup/Installation Requirements

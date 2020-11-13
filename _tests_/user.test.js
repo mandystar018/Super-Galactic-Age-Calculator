@@ -14,27 +14,26 @@ import { User } from '../src/js/user.js';
   });
 
     test('It should add to the user total of 0 for each planet.', () => {
-        expect(user.mercury).toEqual(0);
-        expect(user.venus).toEqual(0);
-        expect(user.mars).toEqual(0);
-        expect(user.jupiter).toEqual(0);
+        expect(user.mercury).toEqual(79);
+        expect(user.venus).toEqual(31);
+        expect(user.mars).toEqual(10);
+        expect(user.jupiter).toEqual();
       });
+    // test('It should take the users year and divided by .24, round it and add it to mercury total', () => {
+    //   expect(user.yearsMercury()).toEqual(79);
+    // });
 
-    test('It should take the users year and divided by .24, round it and add it to mercury total', () => {
-      expect(user.yearsMercury()).toEqual(79);
-    });
+    // test('It should take the users year and divided by .62, round it and add it to mercury total', () => {
+    //   expect(user.yearsVenus()).toEqual(31);
+    // });
 
-    test('It should take the users year and divided by .62, round it and add it to mercury total', () => {
-      expect(user.yearsVenus()).toEqual(31);
-    });
+    // test('It should take the users year and divided by 1.88, round it and add it to mars total', () => {
+    //   expect(user.yearsMars()).toEqual(10);
+    // });
 
-    test('It should take the users year and divided by 1.88, round it and add it to mars total', () => {
-      expect(user.yearsMars()).toEqual(10);
-    });
-
-    test('It should take the users year and divided by 11.86, round it and add it to jupiter total', () => {
-      expect(user.yearsJupiter()).toEqual(2);
-    });
+    // test('It should take the users year and divided by 11.86, round it and add it to jupiter total', () => {
+    //   expect(user.yearsJupiter()).toEqual(2);
+    // });
 });
 
 

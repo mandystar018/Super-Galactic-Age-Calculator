@@ -10,25 +10,25 @@ export class User {
     this.lifeExpectancy =[];
   }
 
-  yearsMercury(){
-    let mercuryYears = (Math.round(this.years / .24));
-    return this.mercury += mercuryYears;
-  }
+  // yearsMercury(){
+  //   let mercuryYears = (Math.round(this.years / .24));
+  //   return this.mercury += mercuryYears;
+  // }
 
-  yearsVenus(){
-    let venusYears = (Math.round(this.years / .62));
-    return this.venus += venusYears;
-  }
+  // yearsVenus(){
+  //   let venusYears = (Math.round(this.years / .62));
+  //   return this.venus += venusYears;
+  // }
 
-  yearsMars(){
-    let marsYears = (Math.round(this.years / 1.88));
-    return this.mars += marsYears;
-  }
+  // yearsMars(){
+  //   let marsYears = (Math.round(this.years / 1.88));
+  //   return this.mars += marsYears;
+  // }
 
-  yearsJupiter(){
-    let jupiterYears = (Math.round(this.years / 11.86));
-    return this.jupiter += jupiterYears;
-  }
+  // yearsJupiter(){
+  //   let jupiterYears = (Math.round(this.years / 11.86));
+  //   return this.jupiter += jupiterYears;
+  // }
     
   lifeExpectancy(){
     if (this.exercise && this.eatingHabits === "non-active" && "unhealthy") {
