@@ -21,7 +21,8 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 | test: It should take the users year and divided by .62, round it and add it to venus total' 	| User("19"); 	| User(Venus:31) 	|
 | Description yearsMars() 	|  	|  	|
 | test: It should take the users year and divided by 1.88, round it and add it to mars total' 	| User("19"); 	| User(Mars:10) 	|
-|  	|  	| Jupiter:2 	|
+| Description yearsJupiter() 	|  	|  	|
+| test: It should take the users year and divided by 11.86, round it and add it to jupiter total' 	| User("19"); 	| User(Jupiter:2) 	|
 
 
 ## Setup/Installation Requirements

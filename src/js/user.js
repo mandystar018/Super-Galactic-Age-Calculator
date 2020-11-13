@@ -23,10 +23,12 @@ export class User {
     let marsYears = (Math.round(this.years / 1.88));
     return this.mars += marsYears;
   }
-    // 
-    // let jupiterYears = (Math.round(this.years / 11.86));
-    // this.jupiter += jupiterYears;
-    // 
+
+  yearsJupiter(){
+    let jupiterYears = (Math.round(this.years / 11.86));
+    return this.jupiter += jupiterYears;
+  }
+    
       // if (this.exercise && this.eatingHabits === "non-active" && "unhealthy") {
       //   return 
       // 
