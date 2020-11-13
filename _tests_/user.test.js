@@ -24,7 +24,9 @@ import { User } from '../src/js/user.js';
       expect(user.yearsMercury()).toEqual(79);
     });
 
-    test('It should take the users year and divided by .62, round it and add it to mercury total'')
+    test('It should take the users year and divided by .62, round it and add it to mercury total', () => {
+      expect(user.yearsVenus()).toEqual(30);
+    });
 });
 
 
