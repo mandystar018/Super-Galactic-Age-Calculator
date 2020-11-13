@@ -9,19 +9,18 @@ export class User {
     this.jupiter = 0;
   }
 
-  planetCalculator(){
+  yearsMercury(){
     let mercuryYears = (Math.round(this.years / .24));
-    let totalMercury = this.mercury += mercuryYears;
-    let venusYears = (Math.round(this.years / .62));
-    let totalVenus = this.venus += venusYears;
-    let marsYears = (Math.round(this.years / 1.88));
-    let totalMars = this.mars += marsYears;
-    let jupiterYears = (Math.round(this.years / 11.86));
-    let totalJupiter = this.jupiter += jupiterYears;
-    return totalMercury + totalVenus + totalMars + totalJupiter;
-  }
-
-} 
+    return this.mercury += mercuryYears;
+    }
+    // let venusYears = (Math.round(this.years / .62));
+    // this.venus += venusYears;
+    // let marsYears = (Math.round(this.years / 1.88));
+    // this.mars += marsYears;
+    // let jupiterYears = (Math.round(this.years / 11.86));
+    // this.jupiter += jupiterYears;
+    // 
       // if (this.exercise && this.eatingHabits === "non-active" && "unhealthy") {
       //   return 
-      // }
+      // 
+  }
