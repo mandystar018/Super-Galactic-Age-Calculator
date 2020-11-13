@@ -11,8 +11,9 @@ export class User {
 
   mercuryCal(){
     let mercuryYears = (Math.round(this.years / .24));
+    this.mercury += mercuryYears;
     if (this.exercise && this.eatingHabits === "non-active" && "unhealthy") {
-      return this.mercury += mercuryYears -= 40;
+      return this.mercury += mercuryYears -= 40
     }
   } 
 }
