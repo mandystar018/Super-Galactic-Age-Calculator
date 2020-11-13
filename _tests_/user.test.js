@@ -21,5 +21,7 @@ import { User } from '../src/js/user.js';
     });
 });
 
-//yearsVenus()
-// this.years / 
+//mercuryCal()
+// let mercuryYears = (Math.round(this.years / .24));
+// mercuryYears += this.mercury;
+//
