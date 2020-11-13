@@ -21,7 +21,7 @@ import { User } from '../src/js/user.js';
     });
 
     test('It should take the users year and divided by .24, round it and add it to mercury total', () => {
-      expect(user.mercuryCl()).toEqual(79);
+      expect(user.mercuryCal()).toEqual(79);
     });
 });
 
