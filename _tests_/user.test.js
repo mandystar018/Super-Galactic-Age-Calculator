@@ -29,7 +29,7 @@ import { User } from '../src/js/user.js';
     });
 
     test('It should take the users year and divided by 1.88, round it and add it to mars total', () => {
-      expect(user.yearMars()).toEqual(10);
+      expect(user.yearsMars()).toEqual(10);
     })
 });
 
