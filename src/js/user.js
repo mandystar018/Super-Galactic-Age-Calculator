@@ -11,10 +11,18 @@ export class User {
   }
     
   lifeExpectancy(){
+    let mercury = this.mercury;
+    let venus = this.venus;
+    let mars = this.mars;
+    let jupiter = this.jupiter;
+    let planets = [mercury, mars, venus, jupiter];
+
     if (this.exercise === "non-active" && this.eatingHabits === "unhealthy") {
       return this.mercury -=40;
-    } else {
-      return "Keep Trying" 
+    } else if(this.exercise === "regular" && this.eatingHabits === "normal") {
+      return this.mercury -=25
+    } if () {
+
     }
     
   }
