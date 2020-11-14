@@ -1,12 +1,12 @@
-# _{Application Name}_
+# _Super Galastic Years_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _Calculator, Nov 13, 2020._
 
 #### By _**Amanda Otero**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This galactic calculator is going to calculate the year you have in other planets based on your earth years._
 
 ## Specs/test
 
@@ -20,7 +20,7 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 ## Setup/Installation Requirements
 
 #### View Online
-* _To view my project visit:_
+* _To view my project visit: https://github.com/mandystar018/Super-Galactic-Age-Calculator_
 
 #### Open Locally
 1. _Go to my GitHub mandystar018_
@@ -44,6 +44,11 @@ _If there is any concerns or questions please email me: mandystar018@gmail.com_
 * _jQuery_
 * _Webpack_
 * _VS code_
+* _NPM_
+* _Webpack_
+* _Eslint_
+* _Balbec_
+* _Jest_
 
 ### License
 
