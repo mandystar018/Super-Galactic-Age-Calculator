@@ -14,7 +14,7 @@ export class User {
     if (this.exercise === "non-active" && this.eatingHabits === "unhealthy") {
       return this.mercury -=40;
     } else {
-      return "Keep Trying"
+      return "Keep Trying" 
     }
     
   }
