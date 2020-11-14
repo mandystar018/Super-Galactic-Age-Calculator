@@ -7,14 +7,14 @@ export class User {
     this.venus = (Math.round(this.years / .62));
     this.mars = (Math.round(this.years / 1.88));
     this.jupiter = (Math.round(this.years / 11.86));
-    this.lifeExpectancy =[];
+    this.life =[];
   }
     
   lifeExpectancy(){
     if (this.exercise && this.eatingHabits === "non-active" && "unhealthy") {
-      return this.mercury -=40;
+      return this.mercury -=40
     } else {
-      return false
+      return "Keep Trying"
     }
     
   }
