@@ -11,8 +11,8 @@ export class User {
   }
     
   lifeExpectancy(){
-    if (this.exercise && this.eatingHabits === "non-active" && "unhealthy") {
-      return this.mercury -=40
+    if (this.exercise === "non-active" && this.eatingHabits === "unhealthy") {
+      return this.mercury -=40;
     } else {
       return "Keep Trying"
     }
