@@ -21,7 +21,7 @@ import { User } from '../src/js/user.js';
       });
 
       test('It should determine life expectancy of the user from planet', () => {
-        expect(user.lifeExpectancy()).toEqual(39);
+        expect(user.lifeExpectancy()).toEqual(39, -9, -30, -40);
       });
 });
 

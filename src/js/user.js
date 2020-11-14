@@ -17,14 +17,11 @@ export class User {
     let jupiter = this.jupiter;
     let planets = [mercury, mars, venus, jupiter];
 
-    if (this.exercise === "non-active" && this.eatingHabits === "unhealthy") {
-      return this.mercury -=40;
-    } else if(this.exercise === "regular" && this.eatingHabits === "normal") {
-      return this.mercury -=25
-    } if () {
-
+    for (i = 0; i <= planets.length; i++) {
+      if (this.exercise === "non-active" && this.eatingHabits === "unhealthy") {
+        return planets[i] -=40;
+      }
     }
-    
   }
-
+    
 }
