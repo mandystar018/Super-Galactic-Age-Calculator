@@ -9,32 +9,14 @@ export class User {
     this.jupiter = (Math.round(this.years / 11.86));
     this.lifeExpectancy =[];
   }
-
-  // yearsMercury(){
-  //   let mercuryYears = (Math.round(this.years / .24));
-  //   return this.mercury += mercuryYears;
-  // }
-
-  // yearsVenus(){
-  //   let venusYears = (Math.round(this.years / .62));
-  //   return this.venus += venusYears;
-  // }
-
-  // yearsMars(){
-  //   let marsYears = (Math.round(this.years / 1.88));
-  //   return this.mars += marsYears;
-  // }
-
-  // yearsJupiter(){
-  //   let jupiterYears = (Math.round(this.years / 11.86));
-  //   return this.jupiter += jupiterYears;
-  // }
     
   lifeExpectancy(){
     if (this.exercise && this.eatingHabits === "non-active" && "unhealthy") {
-      return 
+      return this.mercury -=40;
+    } else {
+      return false
     }
-
+    
   }
 
 }

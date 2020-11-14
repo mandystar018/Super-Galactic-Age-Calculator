@@ -19,21 +19,10 @@ import { User } from '../src/js/user.js';
         expect(user.mars).toEqual(10);
         expect(user.jupiter).toEqual(2);
       });
-    // test('It should take the users year and divided by .24, round it and add it to mercury total', () => {
-    //   expect(user.yearsMercury()).toEqual(79);
-    // });
 
-    // test('It should take the users year and divided by .62, round it and add it to mercury total', () => {
-    //   expect(user.yearsVenus()).toEqual(31);
-    // });
-
-    // test('It should take the users year and divided by 1.88, round it and add it to mars total', () => {
-    //   expect(user.yearsMars()).toEqual(10);
-    // });
-
-    // test('It should take the users year and divided by 11.86, round it and add it to jupiter total', () => {
-    //   expect(user.yearsJupiter()).toEqual(2);
-    // });
+      test('It should determine life expectancy of the user from planet', () => {
+        expect(user.lifeExpectancy()).toEqual(39);
+      });
 });
 
 
