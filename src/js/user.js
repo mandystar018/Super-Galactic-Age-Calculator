@@ -27,17 +27,5 @@ export class User {
       this.mars;
       return this.jupiter;
     }
-
   }
 }
-// let mercury = this.mercury;
-// let venus = this.venus;
-// let mars = this.mars;
-// let jupiter = this.jupiter;
-// let planets = [mercury, mars, venus, jupiter];
-
-// for (let i = 0; i <= planets.length; i++) {
-//   if (this.exercise === "non-active" && this.eatingHabits === "unhealthy") {
-//     return planets[i];
-//   }
-// }
