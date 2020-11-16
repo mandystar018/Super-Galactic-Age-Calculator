@@ -23,6 +23,16 @@ import { User } from '../src/js/user.js';
       test('It should determine life expectancy of the user from planet', () => {
         expect(user.lifeExpectancy()).toEqual(-8);
       });
+
+      test('It should determine life expectancy of if the user has regular exercise and normal diet', () => {
+        user = new User('19', 'regular', 'normal');
+          expect(user.lifeExpectancy()).toEqual(-3);
+      });
+
+      test('It should determine life expectancy of if the user has regular exercise and normal diet', () => {
+        user = new User('19', 'active', 'healthy');
+          expect(user.lifeExpectancy()).toEqual(2);
+      });
 });
 
 

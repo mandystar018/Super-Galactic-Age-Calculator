@@ -21,10 +21,14 @@ export class User {
       this.venus -= 20;
       this.mars -= 10;
       return this.jupiter -=5;
+    } else {
+      this.mercury;
+      this.venus;
+      this.mars;
+      return this.jupiter;
     }
 
   }
-  
 }
 // let mercury = this.mercury;
 // let venus = this.venus;
