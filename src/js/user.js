@@ -11,17 +11,29 @@ export class User {
   }
     
   lifeExpectancy(){
-    let mercury = this.mercury;
-    let venus = this.venus;
-    let mars = this.mars;
-    let jupiter = this.jupiter;
-    let planets = [mercury, mars, venus, jupiter];
-
-    for (i = 0; i <= planets.length; i++) {
-      if (this.exercise === "non-active" && this.eatingHabits === "unhealthy") {
-        return planets[i] -=40;
-      }
+    if (this.exercise === "non-active" && this.eatingHabits === "unhealthy") {
+      this.mercury -=40;
+      this.venus -=30;
+      this.mars -=20;
+      return this.jupiter -=10;
+    } else if (this.exercise === "regular" && this.eatingHabits === "normal") {
+      this.mercury -=25;
+      this.venus -= 20;
+      this.mars -= 10;
+      return this.jupiter -=5;
     }
+
   }
-    
+  
 }
+// let mercury = this.mercury;
+// let venus = this.venus;
+// let mars = this.mars;
+// let jupiter = this.jupiter;
+// let planets = [mercury, mars, venus, jupiter];
+
+// for (let i = 0; i <= planets.length; i++) {
+//   if (this.exercise === "non-active" && this.eatingHabits === "unhealthy") {
+//     return planets[i];
+//   }
+// }
