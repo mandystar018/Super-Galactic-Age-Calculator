@@ -15,6 +15,8 @@ _This galactic calculator is going to calculate the year you have in other plane
 | test: It should correctly hold users data base on years, exercise, eatingHabits. 	| new User("19", "active", "healthy") 	| user "19", "active", "healthy" 	|
 | Description user() 	|  	|  	|
 | test: It should add to the user age divided for each planet. 	| new User("19") 	| new User(Mercury:79, Venus:31, Mars:10, Jupiter:2) 	|
+| Description lifeExpectancy() 	|  	|  	|
+| test:It should subtract life expectancy of the user for each planet based on user answer 	| User("non-active", "unhealthy") 	| User(Mercury:39, Venus:1, Mars:-10, Jupiter:-8) 	|
 
 
 ## Setup/Installation Requirements

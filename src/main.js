@@ -12,8 +12,10 @@ $(document).ready(function() {
     const userYear = $("#year").val();
     const userDiet = $("#diet").val();
     const userExercise = $("#exercise").val();
-
     let userData = new User(userYear, userExercise, userDiet);
-    console.log(userData);
+
+    $("#").click(function() {
+      $("#mercury").show(`You have ${this.mercury} year left in Mercury`);
+    });
   });
 });

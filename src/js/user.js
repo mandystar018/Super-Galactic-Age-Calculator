@@ -7,7 +7,6 @@ export class User {
     this.venus = (Math.round(this.years / .62));
     this.mars = (Math.round(this.years / 1.88));
     this.jupiter = (Math.round(this.years / 11.86));
-    this.life =[];
   }
     
   lifeExpectancy(){
@@ -28,4 +27,12 @@ export class User {
       return this.jupiter;
     }
   }
+
+  lifeMercury() {
+    if (this.mercury) {
+      return `You have lived ${(Math.round(this.years / .24))} years in mercury and you have ${this.mercury -= 40} year left in the planet`;
+    }
+  }
+
+
 }
