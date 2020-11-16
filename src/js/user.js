@@ -29,10 +29,18 @@ export class User {
   }
 
   lifeMercury() {
-    if (this.mercury) {
       return `You have lived ${(Math.round(this.years / .24))} years in mercury and you have ${this.mercury -= 40} year left in the planet`;
-    }
   }
 
+  lifeVenus() {
+      return `You have lived ${(Math.round(this.years / .62))} years in Venus and you have ${this.venus -= 30} year left in the planet`;
+  }
 
+  lifeMars() {
+    return `You have lived ${(Math.round(this.years / 1.88))} years in Mars and you have ${this.mars -= 20} year left in the planet`;
+  }
+
+  lifeJupiter() {
+    return `You have lived ${(Math.round(this.years / 11.86))} years in Jupiter and you have ${this.jupiter -= 10} year left in the planet`;
+  }
 }
