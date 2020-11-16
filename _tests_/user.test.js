@@ -37,7 +37,7 @@ import { User } from '../src/js/user.js';
 
       test('It should return years on the planet and life expectancy', () => {
         user = new User("19", "non-active", "unhealthy");
-        expect(user.lifeMercury()).toEqual("You have lived 79 years in mercury and you have 39 year left in the planet")
+        expect(user.lifeMercur()).toEqual("You have lived 79 years in mercury and you have 39 year left in the planet")
       });
 
       test('It should return years on the planet and life expectancy', () => {
