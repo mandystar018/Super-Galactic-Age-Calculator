@@ -52,7 +52,7 @@ import { User } from '../src/js/user.js';
 
       test('It should return years on the planet and life expectancy', () => {
         user = new User("19", "non-active", "unhealthy");
-        expect(user.lifeJupite()).toEqual("You have lived 2 years in Jupiter and you have -8 year left in the planet")
+        expect(user.lifeJupiter()).toEqual("You have lived 2 years in Jupiter and you have -8 year left in the planet")
       });
 });
 
