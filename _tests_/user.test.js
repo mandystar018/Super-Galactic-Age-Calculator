@@ -35,25 +35,23 @@ import { User } from '../src/js/user.js';
           expect(user.lifeExpectancy()).toEqual(2);
       });
 
-      test('It should return years on the planet and life expectancy', () => {
+      test('It should return years lived and years left on planet Mercury', () => {
         user = new User("19", "non-active", "unhealthy");
         expect(user.lifeMercury()).toEqual("You have lived 79 years in mercury and you have 39 year left in the planet")
       });
 
-      test('It should return years on the planet and life expectancy', () => {
+      test('It should return years lived and years left on planet Venus', () => {
         user = new User("19", "non-active", "unhealthy");
         expect(user.lifeVenus()).toEqual("You have lived 31 years in Venus and you have 1 year left in the planet")
       });
 
-      test('It should return years on the planet and life expectancy', () => {
+      test('It should return years lived and years left on planet Mars', () => {
         user = new User("19", "non-active", "unhealthy");
         expect(user.lifeMars()).toEqual("You have lived 10 years in Mars and you have -10 year left in the planet")
       });
 
-      test('It should return years on the planet and life expectancy', () => {
+      test('It should return years lived and years left on planet Jupiter', () => {
         user = new User("19", "non-active", "unhealthy");
         expect(user.lifeJupiter()).toEqual("You have lived 2 years in Jupiter and you have -8 year left in the planet")
       });
 });
-
-
